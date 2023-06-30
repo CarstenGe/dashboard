@@ -1,5 +1,6 @@
 import './rightSide.css';
 import Updates from '../Updates/Updates';
+import CustomerReview from '../CustomerReview/CustomerReview';
 
 function RightSide(props) {
 	return (
@@ -10,6 +11,7 @@ function RightSide(props) {
 			</div>
 			<div>
 				<h3>Customer review</h3>
+				<CustomerReview />
 			</div>
 		</div>
 	);

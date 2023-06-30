@@ -6,7 +6,7 @@ function Cards(props) {
 	return (
 		<div className='Cards'>
 			{CardsData.map((card,index)=>(
-				<div className="parentContainer">
+				<div className="parentContainer" key={index}>
 					<Card 
 						title={card.title}
 						color={card.color}
@@ -14,7 +14,6 @@ function Cards(props) {
 						value={card.value}
 						png={card.png}
 						series={card.series}
-						key={index}
 					/>
 				</div>
 			))}

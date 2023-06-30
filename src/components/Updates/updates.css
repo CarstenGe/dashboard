@@ -8,3 +8,14 @@
 	width: 85%;
 	font-size: 13px;
 }
+.update {
+	display: flex;
+	gap: 0.5rem;
+}
+.update img {
+	height: 3.2rem;
+	width: 3.2rem;
+}
+.noti div span:nth-of-type(1){
+	font-weight: bold;
+}
