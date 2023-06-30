@@ -1,0 +1,10 @@
+.Updates {
+	background-color: white;
+	border-radius: 0.7rem;
+	gap: 1rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	font-size: 13px;
+}
